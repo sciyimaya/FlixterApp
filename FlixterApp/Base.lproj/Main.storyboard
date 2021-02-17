@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movies View Controller-->
+        <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MoviesViewController" customModule="FlixterApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -59,7 +59,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ssd-oO-o2t"/>
+                    <navigationItem key="navigationItem" title="Movies" id="ssd-oO-o2t"/>
                     <connections>
                         <outlet property="tableView" destination="rNL-rM-xNk" id="vGB-hm-lAr"/>
                     </connections>
